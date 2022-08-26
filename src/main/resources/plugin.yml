@@ -8,7 +8,7 @@ website: https://github.com/cobaltgit/EncodedChat
 commands:
   encode:
     description: Encode your chat with codecs such as Base64
-    usage: /<command> [codec] [message]
+    usage: "Usage: /<command> [codec] [message]"
   decode:
     description: Decode a Base64 encoded chat message
-    usage: /<command> [codec] [message]
+    usage: "Usage: /<command> [codec] [message]"
