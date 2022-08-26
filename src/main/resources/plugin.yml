@@ -1,0 +1,14 @@
+name: EncodedChat
+version: '${version}'
+main: net.cobaltonline.encodedchat.EncodedChat
+api-version: 1.19
+authors: [ cobaltgit ]
+description: Encode your chat with codecs such as Base64, Caesar and others!
+website: https://github.com/cobaltgit/EncodedChat
+commands:
+  encode:
+    description: Encode your chat with codecs such as Base64
+    usage: /<command> [codec] [message]
+  decode:
+    description: Decode a Base64 encoded chat message
+    usage: /<command> [codec] [message]
