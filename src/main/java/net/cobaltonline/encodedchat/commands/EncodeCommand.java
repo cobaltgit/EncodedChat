@@ -13,6 +13,9 @@ import java.util.Arrays;
 public class EncodeCommand implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
+        if (args.length < 2) {
+            return false;
+        }
         String codecId = args[0];
         String[] message = Arrays.copyOfRange(args, 1, args.length);
         if (!EncodedChat.INSTANCE.codecs.contains(codecId)) {
